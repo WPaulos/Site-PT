@@ -1,0 +1,74 @@
+.lien {
+  text-align: center;
+}
+
+.colorlien {
+  background-color: rgb(0, 0, 0);
+  margin-top: 250px;
+}
+
+.colorl {
+  background-color: rgb(194, 184, 152);
+}
+
+.colorp {
+  background-color: rgb(187, 171, 136);
+}
+
+.colora {
+  background-color: rgb(230, 218, 168);
+}
+
+.vp {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.img1 {
+  -webkit-filter: blur(0px);
+  width: 95%;
+  height: 95%;
+}
+
+.img1:hover {
+  -webkit-filter: blur(3px);
+}
+
+.imgbis {
+  -webkit-filter: blur(0px);
+  width: 95%;
+  height: 95%;
+  margin-top: 50px;
+}
+
+.imgbis:hover {
+  -webkit-filter: blur(3px);
+}
+
+.city1 {
+  text-align: left;
+}
+
+.city2 {
+  text-align: center;
+}
+
+.city3 {
+  text-align: right;
+}
+
+.imgli {
+  margin-top: 50px;
+  width: 85%;
+}
+
+.imgpo {
+  margin-top: 50px;
+  width: 85%;
+}
+
+.imgal {
+  margin-top: 50px;
+  width: 85%;
+}
