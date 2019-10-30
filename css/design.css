@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 .lien {
   text-align: center;
 }
@@ -26,36 +30,25 @@
 }
 
 .img1 {
-  -webkit-filter: blur(0px);
+  -webkit-filter: grayscale(100%);
   width: 95%;
   height: 95%;
+  margin-top: 15px;
 }
 
 .img1:hover {
-  -webkit-filter: blur(3px);
+  -webkit-filter: grayscale(0%);
 }
 
 .imgbis {
-  -webkit-filter: blur(0px);
+  -webkit-filter: grayscale(100%);
   width: 95%;
   height: 95%;
-  margin-top: 50px;
+  margin-top: 80px;
 }
 
 .imgbis:hover {
-  -webkit-filter: blur(3px);
-}
-
-.city1 {
-  text-align: left;
-}
-
-.city2 {
-  text-align: center;
-}
-
-.city3 {
-  text-align: right;
+  -webkit-filter: grayscale(0%);
 }
 
 .imgli {
@@ -71,4 +64,49 @@
 .imgal {
   margin-top: 50px;
   width: 85%;
+}
+
+.container1 {
+  position: relative;
+  text-align: center;
+  text-transform: uppercase;
+  color: white;
+  font-size: 80px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.left {
+  position: absolute;
+  top: 610px;
+  right: 15%;
+}
+
+.container2 {
+  position: relative;
+  text-align: center;
+  text-transform: uppercase;
+  color: white;
+  font-size: 80px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.center {
+  position: absolute;
+  top: 63px;
+  right: 25%;
+}
+
+.container3 {
+  position: relative;
+  text-align: center;
+  text-transform: uppercase;
+  color: white;
+  font-size: 80px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.right {
+  position: absolute;
+  top: 610px;
+  right: 15%;
 }
