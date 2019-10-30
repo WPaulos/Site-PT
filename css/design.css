@@ -30,25 +30,25 @@
 }
 
 .img1 {
-  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
   width: 95%;
   height: 95%;
   margin-top: 15px;
 }
 
 .img1:hover {
-  -webkit-filter: grayscale(0%);
+  filter: grayscale(0%);
 }
 
 .imgbis {
-  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
   width: 95%;
   height: 95%;
   margin-top: 80px;
 }
 
 .imgbis:hover {
-  -webkit-filter: grayscale(0%);
+  filter: grayscale(0%);
 }
 
 .imgli {
