@@ -1,0 +1,20 @@
+.container {
+  position: relative;
+  color: white;
+  text-transform: uppercase;
+  font-size: 200px;
+  font-weight: 800;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.title {
+  position: absolute;
+  bottom: 0;
+  right: 1px;
+  filter: opacity(70%);
+}
+
+.imgli {
+  height: 100%;
+  width: 100%;
+}
